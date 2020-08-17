@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+  <h1>首页内容</h1>
+  <img src="../public/img/WX20200807-174124@2x.png" alt="" srcset="">
+  <p>
+    id:<%=res.id%> 
+  </p>
+  <p>
+    name:<%=res.name%>
+  </p>
+
+  <ul>
+    <%for(var i=0; i<list.length; i++){ %>
+      <li>
+        <%=list[i]%>
+      </li>
+    <%}%>
+  </ul>
+
+</body>
+<script src="../public/js/main.js"></script>
+</html>
